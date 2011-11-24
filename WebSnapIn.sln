@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSnapIn", "WebSnapIn\WebSnapIn.csproj", "{15D80069-9692-433F-B5D8-B5C4C967517B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{5B89DA21-8522-4F02-8A57-26A188650763}"
+	ProjectSection(SolutionItems) = preProject
+		build.msbuild = build.msbuild
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSnapInTests", "WebSnapInTests\WebSnapInTests.csproj", "{D7838E02-324C-4407-9C93-38CDDA7A44CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15D80069-9692-433F-B5D8-B5C4C967517B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D80069-9692-433F-B5D8-B5C4C967517B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D80069-9692-433F-B5D8-B5C4C967517B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D80069-9692-433F-B5D8-B5C4C967517B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7838E02-324C-4407-9C93-38CDDA7A44CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7838E02-324C-4407-9C93-38CDDA7A44CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7838E02-324C-4407-9C93-38CDDA7A44CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7838E02-324C-4407-9C93-38CDDA7A44CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
